@@ -106,6 +106,64 @@ body {
 
 /*--About Area End--*/
 
+/*--My recipies Area Start--*/
+.Rcp-Area {}
+
+.Rcp-title {
+}
+
+.Rcp-title h1 {
+    font-size: 47px;
+    font-weight: 900;
+    text-align: center;
+    margin: 100px 0 25px;
+}
+
+.Rcp-title P {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    color: #7e7b7b;
+}
+
+.Rcp-Card {
+    display: flex;
+    justify-content: center;
+}
+.items {
+    width: 280px;
+    padding:20px;
+    margin:50px 40px;
+    box-shadow: 2px 2px 40px #0e0d0d5d;
+    border-radius: 15px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+.item-img img {
+    width: 100%;
+    display: inline-block;
+    border-radius: 11px;
+}
+.item-text h3 {
+    font-size: 27px;
+    color: #464545;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.item-text p {
+    font-size: 16px;
+    color: #2a2929;
+    text-align: justify;
+    margin:0 5px 30px;
+}
+
+
+/*--My recipies Area End--*/
 
 
 
