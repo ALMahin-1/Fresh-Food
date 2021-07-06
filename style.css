@@ -20,6 +20,7 @@ menu h3 {
     font-size: 35px;
     font-weight: 900;
     padding: 5px;
+    cursor: pointer;
 }
 
 menu span {
@@ -46,7 +47,7 @@ menu ul li a {
     padding:10px 30px;
     margin: 5px;
     display: block;
-    transition: 0.5s;
+    transition: all .5s;
 }
 
 #active {
@@ -109,7 +110,7 @@ menu ul li a:hover {
     border-radius: 40px;
     margin-top: 20px;
     box-shadow: 1px 1px 20px #ff44007c;
-    transition: .3s;
+    transition: .4s;
 }
 
 .Heading-btn:hover {
@@ -162,12 +163,13 @@ menu ul li a:hover {
     background: -webkit-linear-gradient(45deg, #000000a8, #fd0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
 .About-Text p {
     width: 75%;
     font-size: 18px;
-    color: #5214a3c4;
+    color: #535050c4;
     text-align: justify;
 }
 
@@ -183,6 +185,7 @@ menu ul li a:hover {
     background: -webkit-linear-gradient(180deg, #0c0c0c, #ffd167);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
 .Rcp-title P {
@@ -207,18 +210,26 @@ menu ul li a:hover {
 
 .item-img {
     width: 100%;
+    overflow: hidden;
 }
 
 .item-img img {
     width: 100%;
     display: inline-block;
     border-radius: 11px;
+    transition: .3s;
 }
+
+.item-img:hover img {
+    transform: scale(1.2);
+}
+
 .item-text h3 {
     font-size: 27px;
     color: #464545;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin:15px 0;
+    cursor: pointer;
 }
 
 .item-text p {
@@ -230,7 +241,7 @@ menu ul li a:hover {
 /*--My recipies Area End--*/
 
 
-/*--working Proccess Area End--*/
+/*--working Proccess Area Start--*/
 
 .working-Items {
     display: flex;
@@ -247,6 +258,10 @@ menu ul li a:hover {
     border: 1px solid;
 }
 
+.working-Items .items:hover img{
+    transform: translateY(-25px);
+}
+
 .working-Items .items .item-img {
     width: 70%;
     padding: 20px 10px;
@@ -256,9 +271,11 @@ menu ul li a:hover {
 .working-Items .items .item-img img {
     width:100%;
     height: 210px;
+    transition: .3s;
+    cursor: pointer;
 }
 
-
+/*--working Proccess Area End--*/
 
 /*--social-actvity Area Start--*/
 
@@ -279,12 +296,14 @@ menu ul li a:hover {
     font-size: 55px;
     font-weight: 900;
     margin: 0;
+    cursor: pointer;
 }
 
 .social-item p {
     font-size: 17px;
     margin: 0;
     color: #2a2a2a;
+    cursor: pointer;
 }
 /*--social-actvity Area End--*/
 
