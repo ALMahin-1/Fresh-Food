@@ -38,7 +38,7 @@ body {
     margin-top: 0;
 }
 
-.Heading-btn {
+.Heading-btn{
     display: inline-block;
     text-decoration: none;
     padding: 20px 40px;
@@ -58,6 +58,53 @@ body {
 }
 
 /*--Header Area End--*/
+
+
+/*--About Area Start--*/
+.About-Area {  
+    background-image: url(Image/shapes/Frame-59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+}
+
+.About-Img {
+    width: 50%;
+    position: relative;
+}
+
+.About-Img img {
+    width: 53%;
+    position: absolute;
+    right: 140px;
+    bottom:0;
+}
+
+.About-Text {
+    width: 50%;
+    margin: auto 0;
+    padding-left: 150px;
+}
+
+.About-Title {
+    font-size: 45px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #000000a8, #fd0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About-Text p {
+    width: 75%;
+    font-size: 18px;
+    color: #5214a3c4;
+    text-align: justify;
+}
+
+/*--About Area End--*/
 
 
 
