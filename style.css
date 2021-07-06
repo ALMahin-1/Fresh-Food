@@ -96,7 +96,7 @@ menu ul li a:hover {
     font-size: 20px;
     color: #7e7b7b;
     width: 70%;
-    margin-top: 0;
+    margin: 0 0 30px;
 }
 
 .Heading-btn{
@@ -140,19 +140,19 @@ menu ul li a:hover {
 }
 
 .About-Img {
-    width: 50%;
+    width: 27%;
     position: relative;
 }
 
 .About-Img img {
-    width: 53%;
+    width: 100%;
     position: absolute;
-    right: 140px;
+    right: ;
     bottom:0;
 }
 
 .About-Text {
-    width: 50%;
+    width: 40%;
     margin: auto 0;
     padding-left: 150px;
 }
@@ -167,7 +167,8 @@ menu ul li a:hover {
 }
 
 .About-Text p {
-    width: 75%;
+    margin: 15px 0 25px;
+    width: 100%;
     font-size: 18px;
     color: #535050c4;
     text-align: justify;
