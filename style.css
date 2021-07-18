@@ -61,6 +61,11 @@ menu ul li a:hover {
     font-weight: 900;
 }
 
+.menu-bar {
+    display: none;
+}
+
+
 /*--Menu End--*/
 
 
@@ -136,19 +141,15 @@ menu ul li a:hover {
     background-position:center ;
     display: flex;
     justify-content: center;
-    height: 98vh;
 }
 
 .About-Img {
     width: 27%;
-    position: relative;
 }
 
 .About-Img img {
     width: 100%;
-    position: absolute;
-    right: ;
-    bottom:0;
+    display: block;
 }
 
 .About-Text {
@@ -333,3 +334,186 @@ footer {
     font-size: 16px;
 }
 /*--Footer Area End--*/
+
+
+/* Media Query */
+@media (max-width: 688px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    menu {
+        padding:5px 10px;
+        align-items: center;
+    }
+    menu h3 {
+        margin: 0;
+        font-size: 22px;
+    }
+    menu ul {
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+        color: #fff;
+        padding: 5px;
+    }
+
+
+
+
+    /* Heading Area */
+    .Heading-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Heading-text {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Heading-text h1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .Heading-img {
+        margin-top: 15px;
+        width: 90%;
+        order: 1;
+    }
+
+    .Heading-img img {
+        width: 100%;
+    }
+
+    .Heading-text p {
+        width: 90%;
+        margin: 28px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Heading-text a {
+        margin: 0 0 20px;
+        font-size: 16px;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+
+
+    /* About Section */
+
+    .About-Area {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .About-Img {
+        width: 65%;
+        margin:25px 0;
+    }
+
+    .About-Text {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        text-align: center;
+    }
+
+    .About-Title {
+        font-size: 30px;
+    } 
+
+    .About-Text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .About-Text a {
+        margin: 0 0 20px;
+        font-size: 16px;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+
+    /* My Recipies */
+
+    .Rcp-title h1 {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+
+    .Rcp-title p {
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 35px;
+    }
+
+    .Rcp-Card {
+        flex-direction: column;
+    }
+
+    .items {
+        width: auto;
+        margin: 20px 40px;
+        padding: 10px;
+    }
+
+    .item-img img {
+        object-fit: cover;
+    }
+
+    .item-text h3 {
+        font-size: 22px;
+    }
+    .item-text P {
+        font-size: 14px;
+    }
+
+    .working-Items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-actvity {
+        margin: 80px 100px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .social-item {
+        padding: 30px 54px;
+    }
+    .social-item h1 {
+        font-size: 35px;
+    }
+    .social-item p {
+        font-size: 14px;
+    }
+
+    .footer-text h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .footer-text p {
+        font-size: 15px;
+    }
+
+
+
+}
